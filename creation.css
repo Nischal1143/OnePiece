@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Zen+Tokyo+Zoo&display=swap');
 
-/* Reset & Base Styles */
+
 * {
   margin: 0;
   padding: 0;
@@ -14,7 +14,7 @@ body {
   overflow-x: hidden;
 }
 
-/* Header */
+
 header {
   background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
   color: white;
@@ -60,7 +60,7 @@ nav a:hover::after {
   width: 100%;
 }
 
-/* Hero Section */
+
 .hero {
   background: url('wallpapper.jpg') no-repeat center center/cover;
   height: 100vh;
@@ -117,7 +117,7 @@ nav a:hover::after {
   transform: scale(1.05);
 }
 
-/* About Section */
+
 .about {
   padding: 60px 20px;
   background: #fff6f0;
@@ -138,7 +138,7 @@ nav a:hover::after {
   color: #444;
 }
 
-/* Characters Section */
+
 .characters {
   background: #ffe6e6;
   padding: 60px 20px;
@@ -187,7 +187,7 @@ nav a:hover::after {
   font-family: 'Permanent Marker', cursive;
 }
 
-/* Footer */
+
 footer {
   background: #011627;
   color: white;
@@ -196,7 +196,7 @@ footer {
   font-size: 14px;
 }
 
-/* Animation */
+
 @keyframes pulse {
   0% { text-shadow: 3px 3px #ff0000; }
   50% { text-shadow: 4px 4px #ffdd00; }
